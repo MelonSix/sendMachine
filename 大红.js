@@ -4,66 +4,78 @@ var sendMachine = (function(){
 	function interval(){
 		//randomize();
 		//console.log(num);
-		var num = Math.ceil(Math.random()* 10),
+		var num = Math.ceil(Math.random()* 12),
 			TimeInterval = num * 300;
 		switch(num){
 			case 1:
 				setTimeout(function(){
-					document.getElementById(textarea).value='汉皇重色思倾国';
+					document.getElementById(textarea).value='赵客缦胡缨，吴钩霜雪明。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 2:
 				setTimeout(function(){
-					document.getElementById(textarea).value='御宇多年求不得';
+					document.getElementById(textarea).value='银鞍照白马，飒沓如流星。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 3:
 				setTimeout(function(){
-					document.getElementById(textarea).value='杨家有女初长成';
+					document.getElementById(textarea).value='十步杀一人，千里不留行。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 4:
 				setTimeout(function(){
-					document.getElementById(textarea).value='养在深闺人未识';
+					document.getElementById(textarea).value='事了拂衣去，深藏身与名。 ';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 5:
 				setTimeout(function(){
-					document.getElementById(textarea).value='天生丽质难自弃';
+					document.getElementById(textarea).value='闲过信陵饮，脱剑膝前横。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 6:
 				setTimeout(function(){
-					document.getElementById(textarea).value='一朝选在君王侧';
+					document.getElementById(textarea).value='将炙啖朱亥，持觞劝侯嬴。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 7:
 				setTimeout(function(){
-					document.getElementById(textarea).value='回眸一笑百媚生';
+					document.getElementById(textarea).value='三杯吐然诺，五岳倒为轻。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 8:
 				setTimeout(function(){
-					document.getElementById(textarea).value='六宫粉黛无颜色';
+					document.getElementById(textarea).value='眼花耳热后，意气素霓生。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 9:
 				setTimeout(function(){
-					document.getElementById(textarea).value='春寒赐浴华清池';
+					document.getElementById(textarea).value='救赵挥金槌，邯郸先震惊。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
 			case 10:
 				setTimeout(function(){
-					document.getElementById(textarea).value='温泉水滑洗凝脂';
+					document.getElementById(textarea).value='千秋二壮士，烜赫大梁城。';
+					document.getElementById(submitButton).click();
+				}, TimeInterval);
+				break;
+			case 11:
+				setTimeout(function(){
+					document.getElementById(textarea).value='纵死侠骨香，不惭世上英。';
+					document.getElementById(submitButton).click();
+				}, TimeInterval);
+				break;
+			case 12:
+				setTimeout(function(){
+					document.getElementById(textarea).value='谁能书阁下，白首太玄经。';
 					document.getElementById(submitButton).click();
 				}, TimeInterval);
 				break;
